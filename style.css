@@ -19,5 +19,35 @@ body {
     height: 130px;
     width: 2px;
     background-color: rgb(70, 255, 255);
-    left: 150px;
+    left: 149px;
+    bottom: 149px;
+    opacity: 50%;
+}
+
+#minutes-hand {
+    height: 100px;
+    width: 2px;
+    background-color: rgb(253, 120, 227);
+    position: absolute;
+    left: 149px;
+    bottom: 149px;
+}
+
+#hours-hand {
+    position: absolute;
+    height: 80px;
+    width: 4px;
+    background-color: rgb(205, 112, 255);
+    left: 148px;
+    bottom: 148px;
+}
+
+#center {
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: rgb(252, 255, 55);
+    position: absolute;
+    left: 145px;
+    bottom: 145px;
 }
